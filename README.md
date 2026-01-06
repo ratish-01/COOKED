@@ -7,39 +7,50 @@ How To Run This Application
 Follow these steps to run the project locally.
 
 1️⃣ Clone the Repository
+
     git clone https://github.com/your-username/COOKED.git
+    
     cd COOKED/backend
 
 2️⃣ Install Dependencies
+
     Make sure Node.js is installed.
+    
     npm install
 
 3️⃣ Create Environment Variables
     Create a .env file inside the backend folder and add:
+    
         SPOTIFY_CLIENT_ID=your_spotify_client_id
+        
         SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+        
         SPOTIFY_REDIRECT_URI=http://localhost:5000/callback
+        
         GEMINI_API_KEY=your_gemini_api_key
 
 4️⃣ Setup Spotify Developer App
     Go to https://developer.spotify.com/dashboard
+    
     Create a new app
+    
     Copy Client ID and Client Secret
+    
     Add Redirect URI:
+    
     http://localhost:5000/callback
+    
     Save settings
 
 5️⃣ Start the Server
     node server.js
     or
     npm start
-    You should see:
-    Server running on port 5000
 
 6️⃣ Open In Browser
     Open:
+    
         http://localhost:5000/login
-    Login with Spotify and enjoy getting cooked 🔥
 
 🚀 Project Flow
 
