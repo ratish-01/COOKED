@@ -19,6 +19,7 @@ Follow these steps to run the project locally.
     npm install
 
 3️⃣ Create Environment Variables
+
     Create a .env file inside the backend folder and add:
     
         SPOTIFY_CLIENT_ID=your_spotify_client_id
@@ -30,6 +31,7 @@ Follow these steps to run the project locally.
         GEMINI_API_KEY=your_gemini_api_key
 
 4️⃣ Setup Spotify Developer App
+
     Go to https://developer.spotify.com/dashboard
     
     Create a new app
@@ -43,11 +45,13 @@ Follow these steps to run the project locally.
     Save settings
 
 5️⃣ Start the Server
+
     node server.js
     or
     npm start
 
 6️⃣ Open In Browser
+
     Open:
     
         http://localhost:5000/login
